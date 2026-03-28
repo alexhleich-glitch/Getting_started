@@ -55,13 +55,86 @@
       "x": 0.15677083333333333,
       "y": 0.6821515892420538,
       "uniqueID": "id-1012",
-      "fileName": null,
+      "fileName": "cnc-bookshelf-one-sheet.svg",
       "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alexhleich-glitch",
+      "repoName": "Getting_started",
+      "SVGwidth": 1260
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.2677083333333333,
+      "y": 0.6723716381418092,
+      "uniqueID": "id-1014",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Getting_started",
+          "currentEquation": "Getting_started"
+        }
+      ],
+      "partName": "Getting_started",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.3380208333333333,
+      "y": 0.8264058679706601,
+      "uniqueID": "id-1021",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Getting_started",
+          "currentEquation": "Getting_started"
+        }
+      ],
       "type": null,
-      "SVGwidth": 10
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Getting_started"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1012",
+      "ap2ID": "id-1014"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
