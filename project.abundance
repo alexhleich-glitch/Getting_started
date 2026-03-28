@@ -35,6 +35,22 @@
           "currentEquation": "1219.2"
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.37395833333333334,
+      "y": 0.6014669926650367,
+      "uniqueID": "id-982",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [],
