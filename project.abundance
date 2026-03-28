@@ -26,13 +26,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 2438.4,
-          "currentEquation": "2438.4"
+          "ioValue": 2438.4
         },
         {
           "name": "y length",
-          "ioValue": 1219.2,
-          "currentEquation": "1219.2"
+          "ioValue": 1219.2
         }
       ]
     },
@@ -51,6 +49,16 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.15677083333333333,
+      "y": 0.6821515892420538,
+      "uniqueID": "id-1012",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
