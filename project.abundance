@@ -106,8 +106,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.37447916666666664,
-      "y": 0.6968215158924205,
+      "x": 0.38645833333333335,
+      "y": 0.6992665036674817,
       "uniqueID": "id-1079",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -184,19 +184,82 @@
       ]
     },
     {
-      "atomType": "Tag",
-      "x": 0.4744791666666667,
-      "y": 0.6968215158924205,
-      "uniqueID": "id-1089",
-      "name": "",
+      "atomType": "ShrinkWrap",
+      "x": 0.4552083333333333,
+      "y": 0.9290953545232274,
+      "uniqueID": "id-1101",
+      "name": "Shrink Wrap",
       "ioValues": [
         {
-          "name": "geometry",
+          "name": "Shape 1",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-circle-62.5-0--400-0",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "circle-45",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
-      ],
-      "tags": [
-        ""
       ]
     }
   ],
@@ -205,6 +268,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-1033",
       "ap2ID": "id-1079"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-1033",
+      "ap2ID": "id-1101"
     },
     {
       "ap2Name": "geometry",
@@ -217,9 +285,9 @@
       "ap2ID": "id-1079"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1079",
-      "ap2ID": "id-1089"
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-1073",
+      "ap2ID": "id-1101"
     }
   ],
   "unitsKey": "MM",
