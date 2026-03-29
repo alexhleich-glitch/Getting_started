@@ -74,8 +74,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 180,
-          "currentEquation": "180"
+          "ioValue": 125,
+          "currentEquation": "125"
         }
       ]
     },
@@ -126,7 +126,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-90-0--400-0",
+            "geometry": "move-circle-62.5-0--400-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -182,6 +182,22 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.4744791666666667,
+      "y": 0.6968215158924205,
+      "uniqueID": "id-1089",
+      "name": "",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        ""
+      ]
     }
   ],
   "allConnectors": [
@@ -199,6 +215,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-1073",
       "ap2ID": "id-1079"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1079",
+      "ap2ID": "id-1089"
     }
   ],
   "unitsKey": "MM",
