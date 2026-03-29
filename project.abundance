@@ -19,40 +19,61 @@
       ]
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.2609375,
-      "y": 0.32273838630806845,
-      "uniqueID": "id-978",
+      "atomType": "Circle",
+      "x": 0.2520833333333333,
+      "y": 0.5843520782396088,
+      "uniqueID": "id-1033",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 2438.4
-        },
-        {
-          "name": "y length",
-          "ioValue": 1219.2
+          "name": "diameter",
+          "ioValue": 33,
+          "currentEquation": "33"
         }
       ]
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.37395833333333334,
-      "y": 0.6014669926650367,
-      "uniqueID": "id-982",
+      "atomType": "Gcode",
+      "x": 0.26197916666666665,
+      "y": 0.5696821515892421,
+      "uniqueID": "id-1036",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "y length",
-          "ioValue": 10
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Getting_started",
+          "currentEquation": "Getting_started"
         }
-      ]
+      ],
+      "partName": "Getting_started",
+      "sortDirection": "Left"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1033",
+      "ap2ID": "id-1036"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
